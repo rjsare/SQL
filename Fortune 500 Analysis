@@ -62,7 +62,7 @@ VALUES
 select * 
 from fortune_companies;
 
-# Which companies are in the the "Technology" or Healthcare industry?
+# Which companies are in the the "Technology" or "Healthcare" industry?
 SELECT company_name, industry
 FROM fortune_companies
 WHERE industry="Technology"
